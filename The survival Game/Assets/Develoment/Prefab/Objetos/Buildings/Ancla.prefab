@@ -100,11 +100,12 @@ MonoBehaviour:
   Requisitos:
   - name: Soga
     cantidad: 1
-  - name: Metal
+  - name: Hierro
     cantidad: 4
   NuevoMat: {fileID: -3248899214965544052, guid: 31e62e8bc72cf5e40948d93726b18c43, type: 3}
   texto: {fileID: 238521611432770293}
   barco: {fileID: 0}
+  TextoObj: {fileID: 0}
   EsBarco: 0
 --- !u!114 &4421384514781491833
 MonoBehaviour:

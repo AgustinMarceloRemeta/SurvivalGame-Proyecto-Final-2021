@@ -38,6 +38,7 @@ public class IEnemy : MonoBehaviour
         {
             agent.SetDestination(gameObject.transform.position);
             NoCorre();
+            ataca = false;
         }
     }
     void Corre()

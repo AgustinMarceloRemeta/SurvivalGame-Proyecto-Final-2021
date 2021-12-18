@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 8167432202284944667}
   - component: {fileID: 8167432202287824451}
   - component: {fileID: 8167432202286684377}
-  - component: {fileID: 8167432202282496051}
   - component: {fileID: 5302333596572810539}
-  - component: {fileID: 3117858693551256158}
+  - component: {fileID: 8893019567503525920}
   m_Layer: 0
   m_Name: Pico
   m_TagString: agarrable
@@ -85,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8167432202282496051
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8167432202284681223}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 559b50234e4b73b40bb95e68a4ae7285, type: 3}
 --- !u!114 &5302333596572810539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,19 +103,16 @@ MonoBehaviour:
   gameobject: {fileID: 8167432202284681223}
   herramienta: 1
   imagen2d: {fileID: 21300000, guid: d94efe99c0b8ff64c91c541daa0e904f, type: 3}
---- !u!54 &3117858693551256158
-Rigidbody:
+--- !u!65 &8893019567503525920
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8167432202284681223}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
+  m_Size: {x: 0.7105515, y: 0.061955802, z: 0.8998717}
+  m_Center: {x: 0.008632749, y: -0.01832116, z: -0.19658977}

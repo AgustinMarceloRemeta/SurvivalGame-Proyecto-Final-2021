@@ -4629,6 +4629,18 @@ PrefabInstance:
       propertyPath: crafteos.Array.data[5].crafteoObj
       value: 
       objectReference: {fileID: 7679521686758660088, guid: dd2c22baee75fec40bc25acca69a3958, type: 3}
+    - target: {fileID: 736094675, guid: 2e18eb77839e5624da8efb775bed32fe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 736094675, guid: 2e18eb77839e5624da8efb775bed32fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 736094675, guid: 2e18eb77839e5624da8efb775bed32fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 203134382304177368, guid: 2e18eb77839e5624da8efb775bed32fe, type: 3}
       propertyPath: m_Name
       value: Player
@@ -6060,7 +6072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1004265241281067352, guid: 5431776bdd3d6d748a3ea05b50b2324c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -341
+      value: -268
       objectReference: {fileID: 0}
     - target: {fileID: 1004265241281067352, guid: 5431776bdd3d6d748a3ea05b50b2324c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6216,7 +6228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1004265242300282042, guid: 5431776bdd3d6d748a3ea05b50b2324c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 345
+      value: 343.00003
       objectReference: {fileID: 0}
     - target: {fileID: 1004265242300282042, guid: 5431776bdd3d6d748a3ea05b50b2324c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6292,7 +6304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1004265242466843322, guid: 5431776bdd3d6d748a3ea05b50b2324c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 347
+      value: 345
       objectReference: {fileID: 0}
     - target: {fileID: 1004265242466843322, guid: 5431776bdd3d6d748a3ea05b50b2324c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6451,6 +6463,14 @@ PrefabInstance:
     - target: {fileID: 1004265243194967871, guid: 5431776bdd3d6d748a3ea05b50b2324c, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 19.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004265243210622953, guid: 5431776bdd3d6d748a3ea05b50b2324c, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004265243210622953, guid: 5431776bdd3d6d748a3ea05b50b2324c, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1004265243210622955, guid: 5431776bdd3d6d748a3ea05b50b2324c, type: 3}
       propertyPath: m_Pivot.x

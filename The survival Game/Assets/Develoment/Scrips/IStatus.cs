@@ -18,12 +18,13 @@ public class IStatus : MonoBehaviour
     }
     private void Update()
     {
-        if (health == 0)
+        if (health <= 0)
         { 
             inventory.muerte();
             health = 100;
             thirst = 0;
             hunger = 0;
+            inventory.UpdateUI();
         }
         Control();
 

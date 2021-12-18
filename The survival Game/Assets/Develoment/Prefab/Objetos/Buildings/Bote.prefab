@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3746365164701070251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3746365164700639841}
+  - component: {fileID: 3746365164699868041}
+  - component: {fileID: 3746365164698816743}
+  - component: {fileID: 3746365164694616865}
+  - component: {fileID: 1036120970046342298}
+  - component: {fileID: 1351383922192717375}
+  - component: {fileID: 8461672043462588959}
+  m_Layer: 0
+  m_Name: Bote
+  m_TagString: construible
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3746365164700639841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3746365164701070251}
+  m_LocalRotation: {x: 0.0000000218557, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.6572148, y: -0.015425324, z: -3.182908}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3746365164699868041
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3746365164701070251}
+  m_Mesh: {fileID: 4300000, guid: 0f91f964406dd2a4299a3e1d4a944c25, type: 3}
+--- !u!23 &3746365164698816743
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3746365164701070251}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 145496b05a1d3644e93ed140c5f9f820, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3746365164694616865
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3746365164701070251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 0f91f964406dd2a4299a3e1d4a944c25, type: 3}
+--- !u!114 &1036120970046342298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3746365164701070251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0abe8d0bd1933614c8abdfdb441386ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RequisitosCumplidos: []
+  Requisitos:
+  - name: Tablon
+    cantidad: 10
+  NuevoMat: {fileID: 2100000, guid: 5467a617dbcbc744689dc1cb59566ba7, type: 2}
+  texto: {fileID: 0}
+  barco: {fileID: 3746365164701070251}
+  TextoObj: {fileID: 0}
+  EsBarco: 0
+--- !u!114 &1351383922192717375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3746365164701070251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6158bdf2451038045a40c4a8268ccd7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Bote
+  description: 
+  quantity: 1
+  stackable: 1
+  gameobject: {fileID: 3746365164701070251}
+  herramienta: 0
+  imagen2d: {fileID: 21300000, guid: 2fb3dd8ba6cf26f47803a12f29429495, type: 3}
+--- !u!65 &8461672043462588959
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3746365164701070251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.432164, y: 1.5087811, z: 4.950626}
+  m_Center: {x: 0, y: 0.37960333, z: 0.541443}

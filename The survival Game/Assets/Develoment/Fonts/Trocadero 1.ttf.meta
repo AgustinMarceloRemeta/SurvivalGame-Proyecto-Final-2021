@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 9f6e38f3c6d33804ca74ec9a786ff5c7
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Trocadero
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e644023bc1e0cdf4998c67d197a9cf81, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

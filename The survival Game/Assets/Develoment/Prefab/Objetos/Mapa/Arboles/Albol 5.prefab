@@ -103,6 +103,7 @@ GameObject:
   - component: {fileID: 5442199593944388985}
   - component: {fileID: 5442199593940077261}
   - component: {fileID: 5442199594307148010}
+  - component: {fileID: 6663489010029472196}
   m_Layer: 0
   m_Name: Albol 5
   m_TagString: Talar
@@ -210,6 +211,22 @@ MonoBehaviour:
   Aparacion2: {fileID: 5442199592551544785}
   Aparacion3: {fileID: 5442199593730398485}
   Aparacion4: {fileID: 5442199592940769138}
+--- !u!208 &6663489010029472196
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5442199593946254985}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.3490002, y: 8.0130005, z: 3.298}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.048, y: 7.4140005, z: -0.004}
+  m_TimeToStationary: 0.5
 --- !u!1 &5442199594504910758
 GameObject:
   m_ObjectHideFlags: 0

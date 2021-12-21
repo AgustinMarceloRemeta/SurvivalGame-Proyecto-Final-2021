@@ -103,6 +103,7 @@ GameObject:
   - component: {fileID: 5413147485806970795}
   - component: {fileID: 5413147485802842939}
   - component: {fileID: 5413147485711856444}
+  - component: {fileID: 8929152867798219446}
   m_Layer: 0
   m_Name: Arbol Naranja
   m_TagString: Talar
@@ -213,6 +214,22 @@ MonoBehaviour:
   Aparacion2: {fileID: 5413147486260331133}
   Aparacion3: {fileID: 5413147485696848438}
   Aparacion4: {fileID: 5413147484929406964}
+--- !u!208 &8929152867798219446
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5413147485809123555}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.924, y: 2.8760002, z: 2.5110002}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.040000003, y: 2.8750002, z: -0.20400001}
+  m_TimeToStationary: 0.5
 --- !u!1 &5413147486260331132
 GameObject:
   m_ObjectHideFlags: 0

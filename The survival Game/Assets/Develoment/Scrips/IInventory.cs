@@ -54,17 +54,7 @@ public class IInventory : MonoBehaviour
             if (Input.GetMouseButtonDown(1)) {
                 if (hit.collider.CompareTag("Libro"))
                 {
-                    Crafteos.SetActive(!Crafteos.activeSelf);
-                    if (Crafteos.activeSelf == true)
-                    {
-                        Cursor.lockState = CursorLockMode.Confined;
-                        Time.timeScale = 0;
-                        if(Input.GetMouseButtonDown(1))
-                        {
-                            Cursor.lockState = CursorLockMode.Locked;
-                            Time.timeScale = 1;
-                        }
-                    }
+                    Libro();
                 }
                 if (hit.collider.CompareTag("EndGame")) SceneManager.LoadScene("Win");
                 if (hit.collider.CompareTag("Cofre"))
@@ -184,6 +174,21 @@ public class IInventory : MonoBehaviour
         imagen();
         Instaciador();
         herramientas();
+    }
+
+    public void Libro()
+    {
+        Crafteos.SetActive(!Crafteos.activeSelf);
+        if (Crafteos.activeSelf == true)
+        {
+            Cursor.lockState = CursorLockMode.Confined;
+            Time.timeScale = 0;
+            if (Input.GetMouseButtonDown(1))
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Time.timeScale = 1;
+            }
+        }
     }
     #endregion
 

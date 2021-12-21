@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 5809934002769323382}
   - component: {fileID: 5809934002773104294}
   - component: {fileID: 5809934002771190311}
+  - component: {fileID: -8711410496595376355}
   m_Layer: 0
   m_Name: Arbol 1
   m_TagString: Talar
@@ -240,3 +241,19 @@ MonoBehaviour:
   Aparacion2: {fileID: 5809934001397420783}
   Aparacion3: {fileID: 5809934001729867902}
   Aparacion4: {fileID: 5809934002667244454}
+--- !u!208 &-8711410496595376355
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5809934002771012614}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 5.802, y: 5.9760003, z: 5.149}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.669, y: 5.255, z: 0.55700004}
+  m_TimeToStationary: 0.5

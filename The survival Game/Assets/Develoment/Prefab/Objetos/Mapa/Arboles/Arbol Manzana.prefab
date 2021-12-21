@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 5226361660352447207}
   - component: {fileID: 5226361660356666145}
   - component: {fileID: 5226361660075550250}
+  - component: {fileID: 8157674707313503252}
   m_Layer: 0
   m_Name: Arbol Manzana
   m_TagString: Talar
@@ -243,3 +244,19 @@ MonoBehaviour:
   Aparacion2: {fileID: 5226361659422748825}
   Aparacion3: {fileID: 5226361659016725715}
   Aparacion4: {fileID: 5226361659639309745}
+--- !u!208 &8157674707313503252
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5226361660354407271}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.9810002, y: 2.4520001, z: 2.8260002}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.053000003, y: 2.4510002, z: -0.149}
+  m_TimeToStationary: 0.5
